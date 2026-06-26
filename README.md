@@ -17,6 +17,8 @@ The workflow follows these steps:
 
 This project showcases how CI/CD pipelines and GitOps work together to create reliable, automated application deployments on Kubernetes.
 
+<img width="1470" height="661" alt="Screenshot 2026-06-25 at 10 37 31 PM" src="https://github.com/user-attachments/assets/4c5a1c2c-9a48-4aa0-90db-88aa02f64607" />
+
 ---
 
 ## 🏗️ Architecture
