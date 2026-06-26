@@ -29,6 +29,6 @@ jobs:
         
       - name: Push Docker Image
         run: |
-          docker push arpita/devops-proj:${{ env.SHORT_SHA }}
+          docker push arpitamisal/devops-proj:${{ env.SHORT_SHA }}
 
     
