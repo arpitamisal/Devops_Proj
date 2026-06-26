@@ -38,7 +38,7 @@ jobs:
 
       - name: Update Helm Chart with new image tag
         run: |
-          sed -i "s/tag:.*/tag: ${{ env.SHORT_SHA }}/" devops-proj-application/values.yaml
+          sed -i "s/tag:.*/tag: ${{ env.SHORT_SHA }}/" ./devops-proj-application/values.yaml
           git add ./project/devops-proj-application/values.yaml
           git commit -m "Update image tag to ${{ env.SHORT_SHA }}"
           git push origin main
