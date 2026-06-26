@@ -7,7 +7,7 @@ service:
   type: ClusterIP
   port: 8080
 
-Ingress:
+ingress:
   enabled: false
 
 serviceAccount:
