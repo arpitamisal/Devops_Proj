@@ -17,7 +17,7 @@ jobs:
 
       - name: Set Short SHA
         run: |
-        echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_ENV 
+          echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_ENV 
 
       - name: Build Docker Image
         run: |
