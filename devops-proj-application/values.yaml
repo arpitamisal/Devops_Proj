@@ -1,6 +1,6 @@
 image:
   repository: arpitamisal/devops-proj
-  tag: d0d56cb
+  tag: 9c0e504
   pullPolicy: IfNotPresent
 
 service:
