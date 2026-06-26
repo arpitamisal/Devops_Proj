@@ -1,6 +1,6 @@
 image:
   repository: devops-proj-application
-  tag: 35cd872
+  tag: 62cd516
   pullPolicy: IfNotPresent
 
 service:
