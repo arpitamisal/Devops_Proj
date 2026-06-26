@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY app.py .
 
-RUN pip intall flask 
+RUN pip install flask 
 
 EXPOSE 8080
 
