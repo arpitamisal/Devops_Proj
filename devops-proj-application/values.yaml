@@ -13,7 +13,7 @@ ingress:
 serviceAccount:
   enabled: false
 
-autoScaling:
+autoscaling:
   enabled: false 
 
 httpRoute:
