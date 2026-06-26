@@ -18,3 +18,5 @@ autoscaling:
 
 httpRoute:
   enabled: false
+
+replicaCount: 1
