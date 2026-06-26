@@ -1,0 +1,17 @@
+image:
+  repository: devops-proj-application
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+
+Ingress:
+  enabled: false
+
+serviceAccount:
+  enabled: false
+
+autoScaling:
+  enabled: false 

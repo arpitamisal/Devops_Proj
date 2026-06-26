@@ -30,5 +30,15 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push arpitamisal/devops-proj:${{ env.SHORT_SHA }}
+        
+      - name: Configure Git Author
+        run: |
+          git config --local user.name "arpitamisal"
+          git config --local user.email "arpitamisal2003@gmail.com"
 
-    
+      - name: Update Helm Chart with new image tag
+        run: |
+          sed -i "s/tag:.*/tag: ${{ env.SHORT_SHA }}/" devops-proj-application/values.yaml
+          git add ./project/devops-proj-application/values.yaml
+          git commit -m "Update image tag to ${{ env.SHORT_SHA }}"
+          git push origin main
