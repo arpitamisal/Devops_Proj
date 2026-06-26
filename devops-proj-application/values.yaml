@@ -1,5 +1,5 @@
 image:
-  repository: arpitamisal/devops-proj-application
+  repository: arpitamisal/devops-proj
   tag: 2bc7606
   pullPolicy: IfNotPresent
 
